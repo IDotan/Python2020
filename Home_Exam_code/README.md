@@ -5,8 +5,8 @@ This is the final exam of the course we toke via the zoom in 3 hours.
 create a binary tree code, explain what is a binary tree and what is a binary search in your on words.
 The function to initialize:
 printTree()
- insert()
- is_exist()
+insert()
+is_exist()
 
 #### Queue
 Create a class queue with 2 values, the queue it self and the max size.
