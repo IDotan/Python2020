@@ -1,5 +1,5 @@
 # final home exam do to Coronavirus
-This is the final exam of the course we toke via the zoom in 3 hours.
+This is the final exam of the course we toke via zoom in 3 hours.
 
 #### Binary tree
 create a binary tree code, explain what is a binary tree and what is a binary search in your on words.  
