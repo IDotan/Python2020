@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Registration page</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href="static/styles/register.css">
+        <!-- <link rel='stylesheet' type='text/css' media='screen' href="{{url_for('static',filename='styles/register.css')}}"> -->        
+    </head>
+<body>
+    <div class="warper-form">
+        <form class="form-continar" onsubmit="return validateForm()" method="POST">
+            <div class="input-continer">                
+                <label for="Username">Username:</label>                
+                <input type="text" id="Username" name="username" required >
+                {% if userDataError != "" %}
+                    <span id="usernameError" class="error">{{ userDataError }}</span> 
+                {% else %}
+                    <span id="usernameError" class="error" hidden></span> 
+                {% endif %}                         
+            </div>
+            <div class="input-continer">
+                <label for="password">Password:</label>
+                <input type="password" id="psw" name="psw" required >
+                <span id="pswError" class="error" hidden></span>
+            </div>
+            <div class="input-continer">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>                
+                {% if emailDataError %}
+                        <span id="emailError" class="error"> {{emailDataError}} </span>
+                {% else %}
+                        <span id="emailError" class="error" hidden></span>
+                {% endif %}
+            </div>
+            <div class="input-continer">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname" required>                
+            </div>
+            <div class="input-continer">                
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname" required>
+            </div>
+            <div class="input-continer">
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender" required >
+                    <option value=""></option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <input class="submit-button" type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+<script type="text/javascript" src="static\scripts\register.js"></script>
+</html>
