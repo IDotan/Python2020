@@ -26,7 +26,7 @@ At the start of the script shows a menu to ask the user for the password paramet
 
 ### itai7 - Working with dictionaries and Password ranking
 This was one task i split to 2 script afterword for convenient.  
-**note:** this 2 script use in code doctests witch may make it look long and a bit harder to read.
+**note:** this 2 scripts use in code doctests witch may make it look long and a bit harder to read.
 #### itai7_a.py - dictionaries handling
 Create script to calculate the cost of a bakery next day missing ingredients using dictionaries. 
 The script output will be a print of the costs for the next day, and of the ingredients there is more then needed to the next day if any.  
