@@ -25,7 +25,7 @@ At the start of the script shows a menu to ask the user for the password paramet
 2.	What characters to include- capital , lower, numbers and symbols.
 
 ### itai7 - Working with dictionaries and Password ranking
-This was one task i split to 2 script afterword for convenient.
+This was one task i split to 2 script afterword for convenient.  
 **note:** this 2 script use in code doctests witch may make it look long and a bit harder to read.
 #### itai7_a.py - dictionaries handling
 Create script to calculate the cost of a bakery next day missing ingredients using dictionaries. 
