@@ -54,9 +54,6 @@ class Car:
         else:
             self.__v_type = new_type.lower()
 
-    def set_time(self, new_time):
-        pass
-
     def get_plate(self):
         """
         | get the plate number of the vehicle
