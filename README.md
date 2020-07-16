@@ -8,5 +8,6 @@ not all codes are complet or even more then an experimentation.
 2.slide11  
 3.slide15  
 4.Home_Exam_code  
+5.random_code_expermants/tickTacToeVsCpu.py
 
 I give a short explanation of what the task was in the relevant places.
